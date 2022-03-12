@@ -20,7 +20,6 @@ By using unsupervised machine learning models with the inputs as various of tech
 
 ## Steps
 
-[insert steps]
 
 
 
@@ -45,27 +44,36 @@ We choose to run the supervised machine learning models for classification as fo
 5. LSTM using PCA
 6. Gradient Boosting Tree
 
-(please refer to foler named "Supervised ML Models")
+(please refer to folder named "Supervised ML Models")
 
 ### 4. Testing Data and Result
 
 4.1. Random Forest Classifier
 
-[insert graph and accuracy table]
+Train model.
 
-4.2. Logistic Regression
+Test model
 
-[insert graph and accuracy table]
+
+4.2. Logistic Regression and Gradient Boosting Classifier
+
+Train model. 
+
+Test Model.
+
 
 4.3 Support Vector Machine
 
 Key lesson learnt
 
-4.4.Naive Bayes (?)
 
-4.5 LSTM using PCA
 
-4.6 Gradient Boosting Tree
+
+4.4 LSTM using PCA
+
+Train model. 
+
+Test model.
 
 
 ### 5. Improve
@@ -80,6 +88,8 @@ Method 2.
 ### 6. Deploying best model
 
 [result]
+
+
 
 
 ## Findings and Leasons
