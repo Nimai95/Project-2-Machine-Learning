@@ -35,18 +35,16 @@ We use Pandas, FinTA - Special note on time series can not use split
 
 We choose to run the supervised machine learning models for classification as follows:
 
-1. Random Forest Classifer
-2. Logistic Regression
+1. Logistic Regression
+2. Gradient Boosting Tree 
 3. Support Vector Machines
-4. Naive Bayes (?)
-5. LSTM using PCA
-6. Gradient Boosting Tree
-
-(please refer to folder named "Supervised ML Models")
+4. LSTM using PCA
+5. Random Forest Classifer
+(please refer to folder file named "Supervised ML Models")
 
 ### 4. Testing Data and Result
 
-4.1. Random Forest Classifier
+4.1. Logistic Regression 
 
 Train Model.
 ![](/Consol/Images/ROC_train.png)
@@ -54,19 +52,20 @@ Train Model.
 Test Model.
 ![](/Consol/Images/ROC_test.png)
 
-4.2. Logistic Regression and Gradient Boosting Classifier
+insert accuracy table
+
+4.2. Gradient Boosting Classifier
 
 Train Model. 
 ![](/Consol/Images/LR_and_GBC_train.png)
 Test Model.
 ![](/Consol/Images/LR_and_GBC_test.png)
 
+insert accuracy table
+
 4.3 Support Vector Machine
 
 Key lesson learnt
-
-
-
 
 4.4 LSTM using PCA
 
@@ -74,6 +73,10 @@ Train Model.
 ![](/Consol/Images/LSTM_train.png)
 Test Model.
 ![](/Consol/Images/LSTM_test.png)
+
+insert accuracy table
+
+4.5 Random Forest Classifer
 
 ### 5. Improve
 
@@ -91,17 +94,17 @@ Method 2.
 
 
 
-## Findings and Leasons
+## Findings and Lessons
 
-### Finding
+### Findings
+*
+*
+*
 
+### Lessons
 
-### Leasons
-
-
-
-
-
+*
+*
 
 
 ***
