@@ -1,0 +1,18 @@
+RESULT FOR AAPL 5 day
+                                                  
+Accuracy_score is 0.5235457063711911
+--------------------------------------------------
+Confusion Matrix
+[[ 69 146]
+ [ 26 120]]
+--------------------------------------------------
+Classification Report
+              precision    recall  f1-score   support
+
+         0.0       0.45      0.82      0.58       146
+         1.0       0.73      0.32      0.45       215
+
+    accuracy                           0.52       361
+   macro avg       0.59      0.57      0.51       361
+weighted avg       0.62      0.52      0.50       361
+

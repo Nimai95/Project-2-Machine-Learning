@@ -1,0 +1,18 @@
+RESULT FOR MSFT 3 day
+                                                  
+Accuracy_score is 0.4666666666666667
+--------------------------------------------------
+Confusion Matrix
+[[ 33 185]
+ [  7 135]]
+--------------------------------------------------
+Classification Report
+              precision    recall  f1-score   support
+
+         0.0       0.42      0.95      0.58       142
+         1.0       0.82      0.15      0.26       218
+
+    accuracy                           0.47       360
+   macro avg       0.62      0.55      0.42       360
+weighted avg       0.67      0.47      0.39       360
+

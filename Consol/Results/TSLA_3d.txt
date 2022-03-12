@@ -1,0 +1,18 @@
+RESULT FOR TSLA 3 day
+                                                  
+Accuracy_score is 0.574585635359116
+--------------------------------------------------
+Confusion Matrix
+[[208   0]
+ [154   0]]
+--------------------------------------------------
+Classification Report
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       154
+         1.0       0.57      1.00      0.73       208
+
+    accuracy                           0.57       362
+   macro avg       0.29      0.50      0.36       362
+weighted avg       0.33      0.57      0.42       362
+

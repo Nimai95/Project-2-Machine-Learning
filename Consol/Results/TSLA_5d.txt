@@ -1,0 +1,18 @@
+RESULT FOR TSLA 5 day
+                                                  
+Accuracy_score is 0.5817174515235457
+--------------------------------------------------
+Confusion Matrix
+[[210   0]
+ [151   0]]
+--------------------------------------------------
+Classification Report
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       151
+         1.0       0.58      1.00      0.74       210
+
+    accuracy                           0.58       361
+   macro avg       0.29      0.50      0.37       361
+weighted avg       0.34      0.58      0.43       361
+

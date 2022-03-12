@@ -1,0 +1,18 @@
+RESULT FOR SPY 3 day
+                                                  
+Accuracy_score is 0.39058171745152354
+--------------------------------------------------
+Confusion Matrix
+[[  9 219]
+ [  1 132]]
+--------------------------------------------------
+Classification Report
+              precision    recall  f1-score   support
+
+         0.0       0.38      0.99      0.55       133
+         1.0       0.90      0.04      0.08       228
+
+    accuracy                           0.39       361
+   macro avg       0.64      0.52      0.31       361
+weighted avg       0.71      0.39      0.25       361
+
