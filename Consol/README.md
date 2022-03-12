@@ -57,9 +57,9 @@ Test Model.
 4.2. Logistic Regression and Gradient Boosting Classifier
 
 Train Model. 
-![](/Consol/Images/LR and GBC train.png)
+![](/Consol/Images/LR_and_GBC_train.png)
 Test Model.
-![](/Consol/Images/LR and GBC test.png)
+![](/Consol/Images/LR_and_GBC_test.png)
 
 4.3 Support Vector Machine
 
@@ -71,9 +71,9 @@ Key lesson learnt
 4.4 LSTM using PCA
 
 Train Model. 
-![](/Consol/Images/LSTM train.png)
+![](/Consol/Images/LSTM_train.png)
 Test Model.
-![](/Consol/Images/LSTM test.png)
+![](/Consol/Images/LSTM_test.png)
 
 ### 5. Improve
 
