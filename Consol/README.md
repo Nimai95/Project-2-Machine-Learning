@@ -19,7 +19,7 @@ By using unsupervised machine learning models with the inputs as various of tech
 3. which time frame and and industry the model show the best result by testing various of prediction time frame and stocks of different industries?  
 
 ## Steps
-C:\Users\desai\Project-2-Machine-Learning\Consol\Images\steps.jpeg
+![](C:\Users\desai\Project-2-Machine-Learning\Consol\Images\steps.jpeg)
 
 ## Implementation
 
@@ -49,17 +49,17 @@ We choose to run the supervised machine learning models for classification as fo
 4.1. Random Forest Classifier
 
 Train Model.
-C:\Users\desai\Project-2-Machine-Learning\Consol\Images\ROC_train.png
+![](C:\Users\desai\Project-2-Machine-Learning\Consol\Images\ROC_train.png)
 
 Test Model.
-C:\Users\desai\Project-2-Machine-Learning\Consol\Images\ROC_test.png
+![](C:\Users\desai\Project-2-Machine-Learning\Consol\Images\ROC_test.png)
 
 4.2. Logistic Regression and Gradient Boosting Classifier
 
 Train Model. 
-C:\Users\desai\Project-2-Machine-Learning\Consol\Images\LR and GBC train.png
+![](C:\Users\desai\Project-2-Machine-Learning\Consol\Images\LR and GBC train.png)
 Test Model.
-C:\Users\desai\Project-2-Machine-Learning\Consol\Images\LR and GBC test.png
+![](C:\Users\desai\Project-2-Machine-Learning\Consol\Images\LR and GBC test.png)
 
 4.3 Support Vector Machine
 
@@ -71,9 +71,9 @@ Key lesson learnt
 4.4 LSTM using PCA
 
 Train Model. 
-C:\Users\desai\Project-2-Machine-Learning\Consol\Images\LSTM train.png
+![](C:\Users\desai\Project-2-Machine-Learning\Consol\Images\LSTM train.png)
 Test Model.
-C:\Users\desai\Project-2-Machine-Learning\Consol\Images\LSTM test.png
+![](C:\Users\desai\Project-2-Machine-Learning\Consol\Images\LSTM test.png)
 
 ### 5. Improve
 
