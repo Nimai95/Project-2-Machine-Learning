@@ -19,7 +19,7 @@ By using unsupervised machine learning models with the inputs as various of tech
 3. which time frame and and industry the model show the best result by testing various of prediction time frame and stocks of different industries?  
 
 ## Steps
-![](C:\Users\desai\Project-2-Machine-Learning\Consol\Images\steps.jpeg)
+![alt_text](Consol/Images/steps.jpeg)
 
 ## Implementation
 
