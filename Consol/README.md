@@ -46,22 +46,17 @@ We choose to run the supervised machine learning models for classification as fo
 
 4.1. Logistic Regression 
 
-Train Model.
-![](/Consol/Images/ROC_train.png)
-
-Test Model.
+ROC for testing data
 ![](/Consol/Images/ROC_test.png)
 
-insert accuracy table
+insert accuracy table [nedal]
 
 4.2. Gradient Boosting Classifier
 
-Train Model. 
-![](/Consol/Images/LR_and_GBC_train.png)
-Test Model.
+ROC for testing data
 ![](/Consol/Images/LR_and_GBC_test.png)
 
-insert accuracy table
+insert accuracy table [nedal]
 
 4.3 Support Vector Machine
 
@@ -69,9 +64,7 @@ Key lesson learnt
 
 4.4 LSTM using PCA
 
-Train Model. 
-![](/Consol/Images/LSTM_train.png)
-Test Model.
+ROC for testing data
 ![](/Consol/Images/LSTM_test.png)
 
 insert accuracy table
@@ -88,6 +81,8 @@ Method 2.
 
 
 ### 6. Deploying best model
+
+We test 
 
 [result]
 
