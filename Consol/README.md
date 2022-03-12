@@ -1,6 +1,6 @@
 # PROJECT 2: APPLICATION OF MACHINE LEARNING IN PREDICTING STOCK DIRECTION
  
----
+
 #### Team members: Amandeep Kaur, Hanna Ho, Nedal M., Nimai Desai, Ronald 
 
 ## Project Theme
@@ -49,14 +49,14 @@ We choose to run the supervised machine learning models for classification as fo
 ROC for testing data
 ![](/Consol/Images/ROC_test.png)
 
-insert accuracy table [nedal]
+insert accuracy table pictures [nedal]
 
 4.2. Gradient Boosting Classifier
 
 ROC for testing data
 ![](/Consol/Images/LR_and_GBC_test.png)
 
-insert accuracy table [nedal]
+insert accuracy table pictures [nedal]
 
 4.3 Support Vector Machine
 
@@ -67,26 +67,29 @@ Key lesson learnt
 ROC for testing data
 ![](/Consol/Images/LSTM_test.png)
 
-insert accuracy table
+insert accuracy table pictures [nedal]
 
 4.5 Random Forest Classifer
 
-### 5. Improve
+[Nimai] insert pictures - 
 
-Method 1. Hyper Tunning for RFC
+[nedal] Insert accuracy tables pictures
 
-Method 2. 
+### 5. Improve - Choose Random Forest Classifier Model
 
-[result]
+Method 1. Hyper Tunning using Gridsearch....
+
+
+Method 2. Improve Data quality
+
+
 
 
 ### 6. Deploying best model
 
-We test 
+We have used the best model with the best result of accuracy and deploy for 4 stocks include AAPL, MIC.., SPY, TSLA
 
-[result]
-
-
+[result table here]
 
 
 ## Findings and Lessons
@@ -103,7 +106,7 @@ We test
 
 
 ***
-New library used: 
+New library used: GridSearchh.. [Ronald]
 
  
 
