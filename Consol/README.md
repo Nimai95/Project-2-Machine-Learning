@@ -48,7 +48,7 @@ We choose to run the supervised machine learning models for classification as fo
 ![Logistic Regression](Images/logistic_acc.png)
 
 ROC for testing data
-![Combined Pic](/Consol/Images/LR_and_GBC_ test.png)
+![Combined Pic](Images/LR_and_GBC_ test.png)
 
 ---
 
