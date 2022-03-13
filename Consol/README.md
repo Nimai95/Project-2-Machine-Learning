@@ -46,9 +46,8 @@ We choose to run the supervised machine learning models for classification as fo
 
 4.1. Logistic Regression and Gradient boosting Classifier 
 
-![](Consol/Images/LR_and_GBC_test.png)
+![](/Consol/Images/LR_and_GBC_test.png)
 
-ROC for testing data
 ![Logistic Regression](Images/logistic_acc.png)
 
 ---
