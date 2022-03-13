@@ -45,31 +45,20 @@ We choose to run the supervised machine learning models for classification as fo
 ### 4. Testing Data and Result
 
 4.1. Logistic Regression and Gradient boosting Classifier 
+
+![](Consol/Images/LR_and_GBC_test.png)
+
+ROC for testing data
 ![Logistic Regression](Images/logistic_acc.png)
 
-ROC for testing data
-![Combined Pic](Images/LR_and_GBC_ test.png)
-
 ---
-
-4.2. Logistic Regression and Gradient Boosting Classifier 
-
-ROC for testing data
-![](Images/LR_and_GBC_test.png)
-
-![](Images/logistic_acc.png)
-
----
-4.3 Support Vector Machine
+4.2 Support Vector Machine
 
 Key lesson learnt
 
 ---
 
-4.4 LSTM using PCA
-
-
-
+4.3 LSTM using PCA
 
 ROC for testing data
 ![](/Consol/Images/LSTM_test.png)
@@ -80,7 +69,7 @@ ROC for testing data
 
 4.5 Random Forest Classifer
 
-[Nimai] insert pictures - 
+![](/Consol/Images/ROC_test.png)
 
 ![](Images/RFC_model.png)
 
