@@ -45,35 +45,46 @@ We choose to run the supervised machine learning models for classification as fo
 ### 4. Testing Data and Result
 
 4.1. Logistic Regression 
+![Logistic Regression](Images/logistic_acc.png)
 
 ROC for testing data
 ![](/Consol/Images/ROC_test.png)
 
-insert accuracy table pictures [nedal]
+---
 
 4.2. Gradient Boosting Classifier
 
 ROC for testing data
 ![](/Consol/Images/LR_and_GBC_test.png)
 
-insert accuracy table pictures [nedal]
+![](Images/logistic_acc.png)
 
+---
 4.3 Support Vector Machine
 
 Key lesson learnt
 
+---
+
 4.4 LSTM using PCA
+
+
+
 
 ROC for testing data
 ![](/Consol/Images/LSTM_test.png)
 
-insert accuracy table pictures [nedal]
+![LSTM](Images/lstm_model.png)
+
+---
 
 4.5 Random Forest Classifer
 
 [Nimai] insert pictures - 
 
-[nedal] Insert accuracy tables pictures
+![](Images/RFC_model.png)
+
+---
 
 ### 5. Improve - Choose Random Forest Classifier Model
 
@@ -89,7 +100,7 @@ Method 2. Improve Data quality
 
 We have used the best model with the best result of accuracy and deploy for 4 stocks include AAPL, MIC.., SPY, TSLA
 
-[result table here]
+![best_model](Images/table_result.png)
 
 
 ## Findings and Lessons
