@@ -83,7 +83,7 @@ ROC for testing data
 
 ### 5. Improve - Random Forest Classifier Model
 
-Method 1. Hyper Tunning using Gridsearch and Grid Search...[Ronald]
+Method 1. Hyper Tunning using Gridsearch and BayesSearchCV
 
 
 Method 2. Improve Data Quality
@@ -115,7 +115,7 @@ Please refer to notebooks named "final_model_production and Result" for more det
 
 
 ***
-New library used: GridSearch.. [Ronald]
+New libraries used: GridSearchCV, BayesSearchCV
 
  
 
