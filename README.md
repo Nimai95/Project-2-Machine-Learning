@@ -15,7 +15,7 @@ Predicting the direction of the stock has been always a strong interest of every
 
 By using supervised machine learning models with the inputs as various of technical analysis indicators, we examine: 
 
-1. Which is the best algo. model to determine stock trend?  
+1. What are algo. models we could use to determine stock trend?  
 2. Which is the best model?
 3. Which time frame and ticker the model show the best result by testing various of prediction time frame and stocks of different stocks?  
 
