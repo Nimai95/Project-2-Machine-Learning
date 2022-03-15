@@ -89,7 +89,7 @@ Seeking a higher degree of accuracy GridSeachCV and BayesianSearchCV were used f
 
 Method 2. Improve Data Quality
 
-Continous indicator itteration and choosing the best features that matter, the model accuracy scores rose from 0.43 to 0.55 
+Continous indicator iteration and choosing the best features that matter, the model accuracy scores rose from 0.43 to 0.55 
 
 ### 6. Deploying best model
 
