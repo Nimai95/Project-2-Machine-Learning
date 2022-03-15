@@ -87,7 +87,7 @@ ROC for testing data
 
 Method 1. Hyperparameter Tuning by GridsearchCV and BayesSearchCV  
 
-Seeking a higher degree of accuracy GridSeachCV and BayesianSearchCV were used for hyperparameter optization. Although plots in sction 4.4 reveal model instability, using hyperparameter tuning achived improvements in accuracy .44 to .58.  
+Seeking a higher degree of accuracy GridSeachCV and BayesianSearchCV were used for hyperparameter optization. Plots in sction 4.4 illlustrate the model results converge as accuracy increases. Using hyperparameter tuning achived accuracy improvements of .44 up to .58.  
 
 Method 2. Improve Data Quality
 
