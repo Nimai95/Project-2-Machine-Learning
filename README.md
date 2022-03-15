@@ -66,7 +66,16 @@ Despite high classification accuracy of support vector machines (SVM), normal SV
 
 ---
 
-4.3 [LSTM using PCA](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Supervised%20ML%20Models/LSTM.ipynb)
+4.3 [LSTM using PCA](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Supervised%20ML%20Models/LSTM.ipynb)  
+
+### Findings and Lessons  
+* As the model  takes longer to train and requires more memory to train, so it's recommended  not to Use a big number of features , so it's better to reduce the number of features to be not more than 20 columns in my case
+* Scaling the data using ` minmax scaler `  requires the data to be in 2D  array shape,  so you might need to reshape the data before scale it .
+* Scaling the data using ` minmax scaler `  should be done for both X&Y
+* Using  ` PCA ` is helpful to observe the trends , jumps ,clusters and outliers and should be done after scaling the data , otherwise it will be complaining about the  X array shape
+* Using the ` dropout fraction `  has a significant affects in building the model as it is a techniques used for reducing the  `overfitting `
+* Using  ` binary_crossentropy `  as a loss function when compiling the model
+* Using the ` early stop `  function was helpful to reduce the training time
 
 ROC for testing data
 ![](/Images/LSTM_test.png "ROC Curve for LSTM using PCA")
