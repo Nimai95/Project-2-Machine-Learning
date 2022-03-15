@@ -21,7 +21,7 @@ By using supervised machine learning models with the inputs as various of techni
 
 Steps
 
-![alt_text](/Consol/Images/steps.jpeg)
+![alt_text](/Images/steps.jpeg)
 
 Tested tickers : AAPL, MSFT, SPY, TSLA  
 Time Frame: 3 days, 5 days, 7 days
