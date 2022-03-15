@@ -17,7 +17,7 @@ By using supervised machine learning models with the inputs as various of techni
 
 1. Which is the best algo. model to determine stock trend?  
 2. Which is the best model?
-3. Qhich time frame and ticker the model show the best result by testing various of prediction time frame and stocks of different stocks?  
+3. Which time frame and ticker the model show the best result by testing various of prediction time frame and stocks of different stocks?  
 
 ## Setup
 
