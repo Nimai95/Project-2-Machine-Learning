@@ -60,7 +60,7 @@ For time series data, we split train and test by len function to avoid data leak
 ![ROC Curve for Logistic Regression](Images/logistic_acc.png "Accuracy Result" )
 
 ---
-4.2 Support Vector Machine
+4.2 [Support Vector Machine](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/resource/Aman/SVM.ipynb)
 
 Despite high classification accuracy of support vector machines (SVM), normal SVM is not suitable for classification of large data sets, because the training complexity of SVM is very high.
 
