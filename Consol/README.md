@@ -1,5 +1,6 @@
 # PROJECT 2: APPLICATION OF MACHINE LEARNING IN PREDICTING STOCK DIRECTION
  
+
 #### Team members: Amandeep Kaur, Hanna Ho, Nedal M., Nimai Desai, Ronald 
 
 ## Project Theme
@@ -14,7 +15,7 @@ By using supervised machine learning models with the inputs as various of techni
 
 1. Which is the best algo. model to determine stock trend?  
 2. Which is the best model?
-3. which time frame and ticker the model show the best result by testing various of prediction time frame and stocks of different stocks?  
+3. Qhich time frame and ticker the model show the best result by testing various of prediction time frame and stocks of different stocks?  
 
 ## Setup
 
@@ -22,7 +23,7 @@ Steps
 
 ![alt_text](/Consol/Images/steps.jpeg)
 
-Tested tickers : AAPL, MSFT, SPY, TSLA
+Tested tickers : AAPL, MSFT, SPY, TSLA  
 Time Frame: 3 days, 5 days, 7 days
 
 ## Implementation
@@ -50,7 +51,7 @@ For time series data, we split train and test by len function to avoid data leak
 
 ### 4. Testing Data and Result
 
-4.1. Logistic Regression and Gradient boosting Classifier 
+4.1. [Logistic Regression and Gradient boosting Classifier](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/Logistic%20and%20GBT.ipynb)
 
 ![](/Consol/Images/LR_and_GBC_test.png "ROC Curve for Logistic Regression")
 
@@ -63,7 +64,7 @@ Despite high classification accuracy of support vector machines (SVM), normal SV
 
 ---
 
-4.3 LSTM using PCA
+4.3 [LSTM using PCA](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/LSTM.ipynb)
 
 ROC for testing data
 ![](/Consol/Images/LSTM_test.png "ROC Curve for LSTM using PCA")
@@ -72,7 +73,7 @@ ROC for testing data
 
 ---
 
-4.4 Random Forest Classifer
+4.4 [Random Forest Classifer](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/RFC.ipynb)
 
 ![](/Consol/Images/ROC_test.png "ROC Curve for Radom Forest Classifier")
 
@@ -82,20 +83,23 @@ ROC for testing data
 
 ### 5. Improve - Random Forest Classifier Model
 
-Method 1. Hyper Tunning using Gridsearch and BayesSearchCV
+Method 1. Hyperparameter Tuning by GridsearchCV and BayesSearchCV  
 
+Seeking a higher degree of accuracy GridSeachCV and BayesianSearchCV were used for hyperparameter optization. Although plots in sction 4.4 reveal model instability, using hyperparameter tuning achived improvements in accuracy .44 to .58.  
 
 Method 2. Improve Data Quality
 
-Continously try different indicators and choose the best features that matter, we could improve the model from 0.43 t0 0.55 
+Continous indicator itteration and choosing the best features that matter, the model accuracy scores rose from 0.43 to 0.55 
 
 ### 6. Deploying best model
 
-We have used the best model with the best result of accuracy and deploy for 4 stocks include AAPL, MIC.., SPY, TSLA
+Having the 'best' results among the models trained and tested Random Forest Classifier model showing the best accuracy results, was deployed targeting 4 stocks: AAPL, MSFT, SPY, TSLA - 3, 5 and 7 day time frames.
+
+[Deployment and production results](https://github.com/Nimai95/Project-2-Machine-Learning/tree/main/Consol/Results ) for AAPL, MSFT, SPY and TSLA. 
 
 ![best_model](Images/table_result.png)
 
-Please refer to notebooks named "final_model_production and Result" for more details.
+Please refer to notebooks named [final_model_production](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/final_model_production.ipynb) and [Result](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Result.ipynb) for more details.
 
 ## Findings and Lessons
 
@@ -112,11 +116,14 @@ Please refer to notebooks named "final_model_production and Result" for more det
 * Imperfections when data grows when we split 70/30 and 80/20 the result significantly changes
 * It's hard to find out one model fit all, and the challenge is to keep accuracy score stable
 
+##  New library  
 
-***
-New libraries used: GridSearchCV, BayesSearchCV
+GridSearchCV  
+BayesianSeachCV  
 
- 
+### Findings  
 
-
-
+* While GridSearchCV: 1m 36s. was important to achieve higher accuracy scores BayesianSearchCV: 1m 24s. was tested to gain insight.
+* The 2 cross validations for Random Forest hyperparameter tuning returened matching results: criterion = 'gini', max_depth = 2, n_estimators = 10.
+* Notably the greatest impact GridSearchCV v. BayesianSearchCV was processing time and resource usage. Suggestion to use n_jobs=-1, to gain fuller usage of system hardware by using all processors, returned significant time savings: GridSearchCV: 14s, BayesianSeachCV: 1m 9s.
+* Futher study required to deploy [Hyperparameter optimization across multiple models in scikit-learn](https://www.davidsbatista.net/blog/2018/02/23/model_optimization).
