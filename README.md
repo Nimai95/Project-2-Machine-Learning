@@ -1,9 +1,11 @@
 # PROJECT 2: APPLICATION OF MACHINE LEARNING IN PREDICTING STOCK DIRECTION
  
 
-#### Team members: Amandeep Kaur, Hanna Ho, Nedal M., Nimai Desai, Ronald 
+#### Team members  
 
-## Project Theme
+Amandeep Kaur, Hanna Ho, Nedal Malkawe, Nimai Desai, Ronald  
+
+## Project Theme  
 
 Which machine learning model rendered the best results for determining stock direction?  
 
