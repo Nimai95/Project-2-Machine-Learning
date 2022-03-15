@@ -1,1 +1,129 @@
-# Project-2-Machine-Learning
+# PROJECT 2: APPLICATION OF MACHINE LEARNING IN PREDICTING STOCK DIRECTION
+ 
+
+#### Team members: Amandeep Kaur, Hanna Ho, Nedal M., Nimai Desai, Ronald 
+
+## Project Theme
+
+Which machine learning model rendered the best results for determining stock direction?  
+
+## Research Question
+
+Predicting the direction of the stock has been always a strong interest of every trader because once we anticipate a trend we can make a profit via "buy low and sell high". However it's not an easy task. Stock market is subject to quick changes, random fluctuation, non linear, and non symentric mainly because participants are irrational, emotional, and implusive in their trading behavior . However complex the market is, there is a belief that given mass trading behaviors repetitive patterns exist, which is a foundation of technical analysis.
+
+By using supervised machine learning models with the inputs as various of technical analysis indicators, we examine: 
+
+1. Which is the best algo. model to determine stock trend?  
+2. Which is the best model?
+3. Qhich time frame and ticker the model show the best result by testing various of prediction time frame and stocks of different stocks?  
+
+## Setup
+
+Steps
+
+![alt_text](/Consol/Images/steps.jpeg)
+
+Tested tickers : AAPL, MSFT, SPY, TSLA  
+Time Frame: 3 days, 5 days, 7 days
+
+## Implementation
+
+### 1. Get data
+
+We used yFinance for daily trading data.  
+
+### 2. Clean, prepare and manipulate data
+
+We used Pandas and FinTA library to calculate the technical indicators.
+
+### 3. Train Models
+
+We chose to run the supervised machine learning models for classification as follows:
+
+1. Logistic Regression
+2. Gradient Boosting Tree 
+3. Support Vector Machines
+4. LSTM using PCA
+5. Random Forest Classifer
+
+For time series data, we split train and test by len function to avoid data leakage.
+(please refer to folder file named "Supervised ML Models")
+
+### 4. Testing Data and Result
+
+4.1. [Logistic Regression and Gradient boosting Classifier](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/Logistic%20and%20GBT.ipynb)
+
+![](/Consol/Images/LR_and_GBC_test.png "ROC Curve for Logistic Regression")
+
+![ROC Curve for Logistic Regression](Images/logistic_acc.png "Accuracy Result" )
+
+---
+4.2 Support Vector Machine
+
+Despite high classification accuracy of support vector machines (SVM), normal SVM is not suitable for classification of large data sets, because the training complexity of SVM is very high.
+
+---
+
+4.3 [LSTM using PCA](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/LSTM.ipynb)
+
+ROC for testing data
+![](/Consol/Images/LSTM_test.png "ROC Curve for LSTM using PCA")
+
+![ROC Curve ](Images/lstm_model.png "Accuracy Result")
+
+---
+
+4.4 [Random Forest Classifer](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/RFC.ipynb)
+
+![](/Consol/Images/ROC_test.png "ROC Curve for Radom Forest Classifier")
+
+![](Images/RFC_model.png "Accuracy Result")
+
+---
+
+### 5. Improve - Random Forest Classifier Model
+
+Method 1. Hyperparameter Tuning by GridsearchCV and BayesSearchCV  
+
+Seeking a higher degree of accuracy GridSeachCV and BayesianSearchCV were used for hyperparameter optization. Although plots in sction 4.4 reveal model instability, using hyperparameter tuning achived improvements in accuracy .44 to .58.  
+
+Method 2. Improve Data Quality
+
+Continous indicator iteration and choosing the best features that matter, the model accuracy scores rose from 0.43 to 0.55 
+
+### 6. Deploying best model
+
+Having the 'best' results among the models trained and tested Random Forest Classifier model showing the best accuracy results, was deployed targeting 4 stocks: AAPL, MSFT, SPY, TSLA - 3, 5 and 7 day time frames.
+
+[Deployment and production results](https://github.com/Nimai95/Project-2-Machine-Learning/tree/main/Consol/Results ) for AAPL, MSFT, SPY and TSLA. 
+
+![best_model](Images/table_result.png)
+
+Please refer to notebooks named [final_model_production](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/final_model_production.ipynb) and [Result](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Result.ipynb) for more details.
+
+## Findings and Lessons
+
+### Findings
+
+* Our best model is the Random Forest Classifier using GridSearchCV as a hyperparameter tunning tool 
+* Though it is the best among all the models we have tested, it shows a modest result with around 0.5 accuracy
+* We aimed at optimizing model to achieve higher precision and recall rate for uptrend, and the model shows good result to predict APPL in 3 days and TESLA in 5 days
+* The results of the model are different for different stocks and time frames
+
+### Lessons
+
+* We have experienced both overfitting and underfitting and that understand that we need to find out the sweet pot for the best fit
+* Imperfections when data grows when we split 70/30 and 80/20 the result significantly changes
+* It's hard to find out one model fit all, and the challenge is to keep accuracy score stable
+
+##  New library  
+
+GridSearchCV  
+BayesianSeachCV  
+
+### Findings  
+
+* While GridSearchCV: 1m 36s. was important to achieve higher accuracy scores BayesianSearchCV: 1m 24s. was tested to gain insight.
+* The 2 cross validations for Random Forest hyperparameter tuning returened matching results: criterion = 'gini', max_depth = 2, n_estimators = 10.
+* Notably the greatest impact GridSearchCV v. BayesianSearchCV was processing time and resource usage. Suggestion to use n_jobs=-1, to gain fuller usage of system hardware by using all processors, returned significant time savings: GridSearchCV: 14s, BayesianSeachCV: 1m 9s.
+* Futher study required to deploy [Hyperparameter optimization across multiple models in scikit-learn](https://www.davidsbatista.net/blog/2018/02/23/model_optimization).
