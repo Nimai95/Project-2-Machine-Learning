@@ -107,16 +107,16 @@ Please refer to notebooks named [final_model_production](https://github.com/Nima
 
 ### Findings
 
-* Our best model is the Random Forest Classifier using GridSearchCV as a hyperparameter tunning tool 
+* Our best model is the Random Forest Classifier using GridSearchCV as a hyperparameter tunning tool
 * Though it is the best among all the models we have tested, it shows a modest result with around 0.5 accuracy
-* We aimed at optimizing model to achieve higher precision and recall rate for uptrend, and the model shows good result to predict APPL in 3 days and TESLA in 5 days
+* We aimed at optimizing the model to achieve higher precision and recall rate for an uptrend, and the model shows the good results to predict APPL in 3 days and TESLA in 5 days
 * The results of the model are different for different stocks and time frames
 
 ### Lessons
 
-* We have experienced both overfitting and underfitting and understood that we need to find out the sweet pot for a good fit
+* We have experienced both overfitting and underfitting and understood that we need to find out the sweet spot for a good fit
 * Imperfections when data grows when we split 70/30 and 80/20 the result significantly changes
-* It's hard to find out one model fit all, and the challenge is to keep accuracy score stable
+* It's hard to find out one model fit all, and the challenge is to keep the accuracy score stable
 
 ##  New library  
 
