@@ -17,7 +17,7 @@ By using supervised machine learning models with the inputs as various of techni
 
 1. Which is the best algo. model to determine stock trend?  
 2. Which is the best model?
-3. Qhich time frame and ticker the model show the best result by testing various of prediction time frame and stocks of different stocks?  
+3. Which time frame and ticker the model show the best result by testing various of prediction time frame and stocks of different stocks?  
 
 ## Setup
 
@@ -114,7 +114,7 @@ Please refer to notebooks named [final_model_production](https://github.com/Nima
 
 ### Lessons
 
-* We have experienced both overfitting and underfitting and that understand that we need to find out the sweet pot for the best fit
+* We have experienced both overfitting and underfitting and understood that we need to find out the sweet pot for a good fit
 * Imperfections when data grows when we split 70/30 and 80/20 the result significantly changes
 * It's hard to find out one model fit all, and the challenge is to keep accuracy score stable
 
