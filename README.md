@@ -51,9 +51,9 @@ For time series data, we split train and test by len function to avoid data leak
 
 ### 4. Testing Data and Result
 
-4.1. [Logistic Regression and Gradient boosting Classifier](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/Logistic%20and%20GBT.ipynb)
+4.1. [Logistic Regression and Gradient boosting Classifier](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Supervised%20ML%20Models/Logistic%20and%20GBT.ipynb)
 
-![](/Consol/Images/LR_and_GBC_test.png "ROC Curve for Logistic Regression")
+![](/Images/LR_and_GBC_test.png "ROC Curve for Logistic Regression")
 
 ![ROC Curve for Logistic Regression](Images/logistic_acc.png "Accuracy Result" )
 
@@ -64,18 +64,18 @@ Despite high classification accuracy of support vector machines (SVM), normal SV
 
 ---
 
-4.3 [LSTM using PCA](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/LSTM.ipynb)
+4.3 [LSTM using PCA](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Supervised%20ML%20Models/LSTM.ipynb)
 
 ROC for testing data
-![](/Consol/Images/LSTM_test.png "ROC Curve for LSTM using PCA")
+![](/Images/LSTM_test.png "ROC Curve for LSTM using PCA")
 
 ![ROC Curve ](Images/lstm_model.png "Accuracy Result")
 
 ---
 
-4.4 [Random Forest Classifer](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Supervised%20ML%20Models/RFC.ipynb)
+4.4 [Random Forest Classifer](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Supervised%20ML%20Models/RFC.ipynb)
 
-![](/Consol/Images/ROC_test.png "ROC Curve for Radom Forest Classifier")
+![](/Images/ROC_test.png "ROC Curve for Radom Forest Classifier")
 
 ![](Images/RFC_model.png "Accuracy Result")
 
@@ -95,11 +95,11 @@ Continous indicator iteration and choosing the best features that matter, the mo
 
 Having the 'best' results among the models trained and tested Random Forest Classifier model showing the best accuracy results, was deployed targeting 4 stocks: AAPL, MSFT, SPY, TSLA - 3, 5 and 7 day time frames.
 
-[Deployment and production results](https://github.com/Nimai95/Project-2-Machine-Learning/tree/main/Consol/Results ) for AAPL, MSFT, SPY and TSLA. 
+[Deployment and production results](https://github.com/Nimai95/Project-2-Machine-Learning/tree/main/Results ) for AAPL, MSFT, SPY and TSLA. 
 
 ![best_model](Images/table_result.png)
 
-Please refer to notebooks named [final_model_production](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/final_model_production.ipynb) and [Result](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Consol/Result.ipynb) for more details.
+Please refer to notebooks named [final_model_production](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/final_model_production.ipynb) and [Result](https://github.com/Nimai95/Project-2-Machine-Learning/blob/main/Result.ipynb) for more details.
 
 ## Findings and Lessons
 
