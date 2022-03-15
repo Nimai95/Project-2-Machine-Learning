@@ -1,6 +1,5 @@
 # PROJECT 2: APPLICATION OF MACHINE LEARNING IN PREDICTING STOCK DIRECTION
  
-
 #### Team members: Amandeep Kaur, Hanna Ho, Nedal M., Nimai Desai, Ronald 
 
 ## Project Theme
@@ -60,7 +59,7 @@ For time series data, we split train and test by len function to avoid data leak
 ---
 4.2 Support Vector Machine
 
-Key lesson learnt
+Despite high classification accuracy of support vector machines (SVM), normal SVM is not suitable for classification of large data sets, because the training complexity of SVM is very high.
 
 ---
 
